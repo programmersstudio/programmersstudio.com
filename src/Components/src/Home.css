@@ -1,0 +1,108 @@
+.parallax {
+
+    /* The image used */
+    background-image: url(../../assets/images/home-logo.png);
+    /* Set a specific height */
+    min-height: 750px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-part{
+    background-color: #fff;
+    color: white;
+    text-align: center;
+}
+
+.box{
+    background-color: rgb(12,60,96);
+    display: inline-block;
+    width: 20%;
+    height: 37%;
+    margin: 3%;
+    padding: 2%;
+}
+
+.box > button{
+    background-color: rgb(103,202,218);
+    width: 80%;
+    font-size: 16px;
+    border-style: none;
+    border: 0;
+    color: white;
+    padding: 14px 25px;
+}
+
+.about-us{
+    background-color: rgb(209,224,235);
+    width: 100%;
+    text-align: center;
+    color: rgb(12,60,96);
+}
+
+.about-child{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2%;
+}
+
+.about-child > p{
+    margin: 4% 2% 4% 2%;
+    font-size: 22px;
+    text-align: left;
+}
+
+.about-child > button{
+    width: 30%;
+    height: 50px;
+    color: white;
+    padding: 14px 25px;
+    border-style: none;
+    border: 0;
+    font-size: 16px;
+    background-color: rgb(12,60,96);
+}
+
+.contact-us{
+    background-color: rgb(12,60,96);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.contact-child{
+    padding: 1%;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-child > h1{
+    margin: 1%;
+}
+
+.contact-child > p{
+    margin: 3%;
+    font-size: 18px;
+}
+
+.contact-child > form > input {
+    margin: 1% auto;
+    width: 50%;
+}
+
+#form-btn{
+    color: white;
+    padding: 14px 25px;
+    border-style: none;
+    margin: 0% auto;
+    width: 30%;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(103,202,218);
+}
