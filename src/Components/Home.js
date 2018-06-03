@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import './src/Home.css';
+import Services from './Services';
+import Project from './Project';
+import Clients from './Clients';
+import Blog from './Blog'
 
 export default class Home extends Component {
     render(){
         return(
+        <Router>
             <div>
                 <div id="parallax" className="parallax"></div>
                 
@@ -56,6 +62,7 @@ export default class Home extends Component {
                 </div>
 
             </div>
+        </Router>
         );
     }
 }
